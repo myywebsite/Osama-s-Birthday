@@ -1,0 +1,82 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#birthday-header {
+    background: #0b0e3e;
+    /* أزرق داكن */
+    color: white;
+}
+
+#interactive-section {
+    background: #1a1a1a;
+    /* أسود */
+    color: white;
+}
+
+#goal-message {
+    font-size: 1.5rem;
+    color: #f8c52d;
+    /* ذهبي */
+}
+
+#football {
+    cursor: pointer;
+    width: 100px;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+footer {
+    background: #0b0e3e;
+    /* أزرق داكن */
+    color: white;
+}
+
+
+#hidden-message img {
+    margin-top: 15px;
+    width: 100px;
+}
+
+#game-area {
+    position: relative;
+    background: linear-gradient(to top, #87CEEB, #00BFFF);
+    /* Beautiful Sky Gradient */
+    border-radius: 10px;
+}
+
+#goal {
+    border-radius: 5px;
+    height: 60px;
+    width: 120px;
+    bottom: 0;
+    left: 50%;
+    /* Center the goal */
+    transform: translateX(-50%);
+}
+
+#ball {
+    width: 50px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+#score-count,
+#win-message {
+    font-size: 18px;
+}
